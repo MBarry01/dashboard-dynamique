@@ -17,7 +17,7 @@ export const Header: React.FC<Props> = ({ onImportClick, onNewWidgetClick }) => 
             <img
               src="https://i.ibb.co/F7D2Jjx/Text-Graph.png"
               alt="TexGraph Logo"
-              className="h-8 w-8 mr-3"
+              className="h-10 w-10 mr-3"
             />
             <div>
               <h1 className="text-2xl font-bold text-gray-900">TexGraph</h1>
