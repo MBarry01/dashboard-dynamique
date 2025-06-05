@@ -33,3 +33,23 @@ export interface Filter {
   operator: 'equals' | 'contains' | 'greater' | 'less';
   value: string | number;
 }
+
+export interface HIVData {
+  year: number;
+  region?: string;
+  peopleWithHIV: number;
+  peopleWithHIVMin?: number;
+  peopleWithHIVMax?: number;
+  deaths: number;
+  deathsMin?: number;
+  deathsMax?: number;
+  pregnantWomenNeeding?: number;
+  pregnantWomenReceiving?: number;
+  artCoverage?: number;
+}
+
+export interface FilterState {
+  region: string;
+  displayMode: 'absolute' | 'perCapita';
+  showConfidenceIntervals: boolean;
+}
